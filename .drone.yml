@@ -7,4 +7,11 @@ build:
         image: python:2-alpine
         commands:
             - pip install -r requirements.txt
-            - python test.py 
+            - python test.py
+    publish:
+        repo: $$gdadhich/cicd_demoapp
+        tag: latest
+        username: $$gdadhich
+        password: $$Jun!per1
+        email: $$gdadhich@cisco.com
+
