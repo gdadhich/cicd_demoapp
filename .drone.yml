@@ -9,9 +9,10 @@ build:
             - pip install -r requirements.txt
             - python testing.py
     publish:
-        repo: $$gdadhich/cicd_demoapp
-        tag: latest
-        username: $$gdadhich
-        password: $$Jun!per1
-        email: $$gdadhich@cisco.com
+       docker: 
+           repo: $$gdadhich/cicd_demoapp
+           tag: latest
+           username: $$gdadhich
+           password: $$Jun!per1
+           email: $$gdadhich@cisco.com
 
