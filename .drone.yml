@@ -10,9 +10,9 @@ build:
             - python testing.py
     publish:
         docker: 
-            repo: $$gdadhich/cicd_demoapp
+            repo: $$DOCKER_USERNAME/cicd_demoapp
             tag: latest
-            username: $$gdadhich
-            password: $$Jun!per1
-            email: $$gdadhich@cisco.com
+            username: $$DOCKER_USERNAME
+            password: $$DOCKER_PASSWORD
+            email: $$DOCKER_EMAIL
 
